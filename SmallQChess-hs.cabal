@@ -71,7 +71,7 @@ executable SmallQChess-hs
     -- other-extensions:
 
     -- Other library packages from which modules are imported.
-    build-depends:    mtl, microlens-mtl, microlens-th, microlens, vty, vty-unix, brick, base ^>=4.21.0.0
+    build-depends:    bitvec, containers, mtl, microlens-mtl, microlens-th, microlens, vty, vty-unix, brick, base ^>=4.21.0.0
 
     -- Directories containing source files.
     hs-source-dirs:   app
